@@ -15,6 +15,7 @@
 		89E3BCCA20F3C955006A744E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E3BCC820F3C955006A744E /* LaunchScreen.storyboard */; };
 		89E3BCD520F3C955006A744E /* Assignment_NotebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E3BCD420F3C955006A744E /* Assignment_NotebookTests.swift */; };
 		89E3BCE020F3C955006A744E /* Assignment_NotebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E3BCDF20F3C955006A744E /* Assignment_NotebookUITests.swift */; };
+		89E3BCEE20F3DB47006A744E /* Assignments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E3BCED20F3DB47006A744E /* Assignments.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		89E3BCDB20F3C955006A744E /* Assignment NotebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment NotebookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E3BCDF20F3C955006A744E /* Assignment_NotebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_NotebookUITests.swift; sourceTree = "<group>"; };
 		89E3BCE120F3C955006A744E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E3BCED20F3DB47006A744E /* Assignments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignments.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				89E3BCBD20F3C955006A744E /* AppDelegate.swift */,
 				89E3BCBF20F3C955006A744E /* MasterViewController.swift */,
+				89E3BCED20F3DB47006A744E /* Assignments.swift */,
 				89E3BCC120F3C955006A744E /* DetailViewController.swift */,
 				89E3BCC320F3C955006A744E /* Main.storyboard */,
 				89E3BCC620F3C955006A744E /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E3BCEE20F3DB47006A744E /* Assignments.swift in Sources */,
 				89E3BCC220F3C955006A744E /* DetailViewController.swift in Sources */,
 				89E3BCC020F3C955006A744E /* MasterViewController.swift in Sources */,
 				89E3BCBE20F3C955006A744E /* AppDelegate.swift in Sources */,
